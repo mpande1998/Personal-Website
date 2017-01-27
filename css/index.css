@@ -5,16 +5,20 @@
   src: url('../fonts/Proxima-Nova-Bold.otf') format('opentype');
 }
 
-.red {
-  color: #FC726F;
+.myred {
+  color: #ff5500;
 }
 
-.green {
-  color: #00cc00;
+.mygreen {
+  color: #00b300;
 }
 
-.yellow {
-  color: #ffbf00;
+.myyellow {
+  color: #3399ff;
+}
+
+.card {
+  width: 600px;
 }
 
 html, body {
@@ -38,7 +42,7 @@ h3 {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
 }
 
 h1 {
@@ -51,6 +55,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f2f2f2;
 }
 
 .flexcontainer {
@@ -63,15 +68,19 @@ h1 {
   text-decoration: none;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
- font-size: 1.7rem;
+ font-size: 1.35rem;
+}
+
+ a i.fa-github {
+  font-size: 1.55rem;
+}
+
+li {
+  display: inline-block;
 }
 
 .links a i {
   transition: 0.3s ease;
-}
-
-i.fa-github {
-  font-size: 2.0rem;
 }
 
 i.fa-github:hover {
@@ -79,9 +88,13 @@ i.fa-github:hover {
 }
 
 i.fa-paper-plane:hover {
-  color: #FC726F;
+  color: #ffcc00;
 }
 
 i.fa-file-text:hover {
-  color: #8585ad;
+  color: #c33;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
