@@ -5,15 +5,15 @@
   src: url('../fonts/Proxima-Nova-Bold.otf') format('opentype');
 }
 
-.myred {
+.customred {
   color: #ff5500;
 }
 
-.mygreen {
+.customgreen {
   color: #00b300;
 }
 
-.myyellow {
+.customblue {
   color: #3399ff;
 }
 
@@ -23,6 +23,7 @@
   justify-content: center;
   text-align: center;
   padding-top: 45px;
+  margin-bottom: 2.5rem;
 }
 
 html, body {
