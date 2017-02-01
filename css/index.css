@@ -23,7 +23,7 @@
   justify-content: center;
   text-align: center;
   padding-top: 45px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.1rem;
 }
 
 html, body {
@@ -43,7 +43,7 @@ h1, h3 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h1 {
