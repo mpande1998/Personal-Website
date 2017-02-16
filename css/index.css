@@ -1,7 +1,12 @@
 @font-face {
+  font-family: 'altair';
+  font-weight: bold;
+  src: url('../fonts/Altair-Bold.ttf') format('opentype');
+}
+
+@font-face {
   font-family: 'Proxima-Nova';
   font-weight: bold;
-  font-style: normal;
   src: url('../fonts/Proxima-Nova-Bold.otf') format('opentype');
 }
 
@@ -22,11 +27,7 @@
   width: 700px;
   justify-content: center;
   text-align: center;
-  padding-top: 45px;
-  margin-bottom: 0.05rem;
-
-  font-family: 'Proxima-Nova', sans-serif;
-  font-weight: bold;
+  padding-top: 47px;
   color: #404040;
 }
 
@@ -35,17 +36,17 @@ html, body {
   margin: 0;
 }
 
-h1, h3 {
-  margin: 0.5rem;
+h2 {
+  font-family: "Proxima-Nova", sans-serif;
   letter-spacing: 0.07rem;
-}
-
-h3 {
-  font-size: 1.6rem;
+  font-size: 1.45rem;
+  margin: 0.3rem;
 }
 
 h1 {
-  font-size: 3.0rem;
+  font-family: "altair", sans-serif;
+  font-size: 3.3rem;
+  margin: 0.3rem;
 }
 
 .flexbox {
@@ -54,6 +55,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.links {
+  margin-top: 0.45rem;
 }
 
 .links a {
@@ -65,7 +70,11 @@ h1 {
 }
 
  a i.fa-github {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
+}
+
+a i.fa-envelope {
+  font-size: 1.65rem;
 }
 
 li {
@@ -80,7 +89,7 @@ i.fa-github:hover {
   color: #3399ff;
 }
 
-i.fa-paper-plane:hover {
+i.fa-envelope:hover {
   color: #ffcc00;
 }
 
@@ -89,9 +98,9 @@ i.fa-file-text:hover {
 }
 
 .somethingcool {
-  letter-spacing: 0.07rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 0.85rem;
-  font-style: normal;;
+  letter-spacing: 0.07rem;
   position: absolute;
   margin-right: 1rem;
   text-decoration: none;
